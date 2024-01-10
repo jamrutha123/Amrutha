@@ -13,6 +13,35 @@ USE imdb;
 
 -- Q1. Find the total number of rows in each table of the schema?
 -- Type your code below:
+SELECT 
+    COUNT(*) AS movie_row_count
+FROM
+    movie;
+    
+SELECT 
+    COUNT(*) AS ratings_row_count
+FROM
+    ratings;
+    
+SELECT 
+    COUNT(*) AS genre_row_count
+FROM
+    genre;
+    
+SELECT 
+    COUNT(*) AS directors_row_count
+FROM
+    director_mapping;
+    
+SELECT 
+    COUNT(*) AS roles_row_count
+FROM
+    role_mapping;
+    
+SELECT 
+    COUNT(*) AS names_row_count
+FROM
+    names;
 
 
 
